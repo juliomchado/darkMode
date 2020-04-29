@@ -1,0 +1,54 @@
+.light {
+    height: 400px;
+    width: 400px;
+    color: #ffffff;
+    transform: rotate(180deg);
+    transition: 1s;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1f1f1f;
+    transition: 1s;
+}
+
+.button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    transition: 1s;
+    margin-bottom: 100px;
+}
+
+.active {
+    color: #1f1f1f;
+}
+
+.body-light {
+    background-color: #fff;
+}
+
+.thread {
+    width: 30px;
+    height: 310px;
+    background-color: #fff;
+    transition: 1s;
+
+}
+
+.button-light {
+    background-color: #1f1f1f;
+
+}
+
+.thread-light{
+    background-color: #1f1f1f;
+}
